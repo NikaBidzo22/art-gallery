@@ -1,0 +1,446 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+body {
+    max-width: 1440px;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.black-side {
+    width: 452px;
+    height: 800px;
+    background: #151515;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.first-bg {
+    display: flex;
+    height: 980px;
+}
+.lady {
+    width: 540px;
+    height: 800px;
+    display: block;
+}
+.modern {
+    position: absolute;
+    width: 514px;
+    left: 165px;
+    top: 189px;
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 88px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: difference;
+}
+.loacal {
+    width: 260px;
+    height: 72px;
+    display: flex;
+    position: absolute;
+    top: 414px;
+    left: 925px;
+}
+.our-loacal {
+    width: 204px;
+    height: 72px;
+    background: #151515;
+    display: block;
+    cursor: pointer;
+}
+.noname {
+font-family: 'Big Shoulders Display';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 3.63636px;
+color: #FFFFFF;
+margin-block-end: 0;
+margin-block-start: 0;
+margin-left: 32px;
+margin-top: 24px;
+}
+.href {
+    display: block;
+    width: 56px;
+    height: 72px;
+    background: #D5966C;
+}
+.our-loacal:hover {
+    background: #D5966C;
+}
+.our-loacal:hover+.href {
+    background: #151515;
+}
+.path {
+    margin: 24px;
+}
+.johndepp {
+    width: 350px;
+    font-family: 'Outfit';
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 32px;
+color: #444444;
+position: absolute;
+top: 190px;
+left: 925px;
+}
+.sec-bg {
+    height: 1330px;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+h1.nobody {
+    font-family: 'Big Shoulders Display';
+font-style: normal;
+font-weight: 900;
+font-size: 60px;
+line-height: 60px;
+text-transform: uppercase;
+color: #151515;
+margin-right: 0;
+}
+p.nobody {
+    font-family: 'Outfit';
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 32px;
+color: #444444;
+width: 350px;
+margin-right: 0;
+}
+.nobody {
+    margin-left: 165px;
+}
+.fgrid {
+    position: relative;
+    left: 640px;
+    top: 50px;
+}
+.sgrid {
+    margin-left: 165px;
+    margin-right: 30px;
+    position: relative;
+    top: -35px;
+}
+.tgrid {
+    position: relative;
+    top: -35px;
+}
+.safe {
+    position: relative;
+    left: -780px;
+    top: 30px;
+}
+.blackhole {
+    width: 447px;
+    height: 377px;
+    background: #151515;
+    position: absolute;
+    left: 830px;
+top: 1792px;
+}
+h1.hello {
+    font-family: 'Big Shoulders Display';
+font-style: normal;
+font-weight: 900;
+font-size: 60px;
+line-height: 60px;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-left: 45px;
+margin-top: 65px;
+margin-block-end: 0;
+}
+p.hello {
+    font-family: 'Outfit';
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 32px;
+color: #FFFFFF;
+width: 350px;
+margin-left: 45px;
+margin-top: 32px;
+}
+footer {
+    height: 244px;
+    background: #151515;
+    overflow: hidden;
+    color: white;
+}
+.text {
+    margin-top: 90px;
+    margin-left: 165px;
+    width: 160px;
+    height: 58px;
+}
+.textbutp {
+    font-family: 'Outfit';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 28px;
+color: #FFFFFF;
+width: 430px;
+position: relative;
+left: 425px;
+top: -85px;
+}
+h1.nobody   .first-br {
+    display: none;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+}
+.face,.insta,.twitter {
+    background-color: black;
+    left: 1175px;
+    top: -170px;
+}
+:root {
+    --black: #151515;
+    --grey: #444444;
+    --brick: #d5966c;
+}
+.insta {
+    color: aqua;
+    margin: 0px 20px;
+}
+.icon {
+    position: relative;
+    left: 1175px;
+    top: -170px;
+}
+@media screen and ( max-width:768px){
+    .black-side {
+      width: 0;
+      height: 0;
+}
+.lady {
+    height: 700px;
+    width: 437px;
+}
+.modern {
+    color: #151515;
+    mix-blend-mode: normal;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 65px;
+    left: 389px;
+    top: 145px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.johndepp {
+    left:389px;
+    top: 293px;
+    font-size: 18px;
+}
+.loacal {
+    left: 389px;
+    top: 483px;
+}
+.first-bg {
+    height: 820px;
+}
+h1.nobody {
+    width: 223px;
+}
+.nobody {
+    margin-left: 39px;
+    position: relative;
+    top: -19px;
+}
+ h1.nobody   br  {
+    display: none;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+}
+ p.nobody {
+    width: 279px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+ }
+ .fgrid {
+    content: url(./art-gallery-website/starter-code/assets/tablet/image-grid-1.jpg);
+    left: 355px;
+    top: 10px;
+    height: 380px;
+    width: 378px;
+ }
+ .safe {
+    left: -575px;
+    top: 20px;
+ }
+ .sgrid {
+    content: url(./art-gallery-website/starter-code/assets/tablet/image-grid-2.jpg);
+    left: -129px;
+    top: -29px;
+ }
+ .tgrid {
+    content: url(./art-gallery-website/starter-code/assets/tablet/image-grid-3.jpg);
+    left: -140px;
+    top: -27px;
+ }
+ .blackhole {
+    position: absolute;
+    left: 453px;
+    top: 1552px;
+    height: 396px;
+    width: 280px;
+ }
+ h1.hello  {
+    font-size: 50px;
+    margin-top: 85px;
+    margin-left: 29px;
+ }
+ p.hello {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    width: 223px;
+    margin-top: 24px;
+    margin-left: 29px;
+ }
+ .sec-bg {
+    height: 1200px;
+ }
+  footer {
+    height: 216px;
+    width: 768px; 
+  }
+  .text {
+    margin-top: 56px;
+    margin-left: 39px;
+  }
+  .textbutp {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    left: 275px;
+    width: 281px;
+  }
+  .icon {
+    left: 620px;
+    top: -200px;
+  }
+}
+@media screen and (max-width: 375px){
+    .lady {
+        content: url(./art-gallery-website/starter-code/assets/mobile/image-hero.jpg);
+        height: 240px;
+        width: 375px;
+    }
+    .modern {
+        left: 16px;
+        top: 272px;
+        font-size: 60px;
+    }
+    .johndepp {
+        left: 16px;
+        top: 414px;
+        font-size: 18px;
+        display: inline;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+    .loacal {
+        left: 16px;
+        top: 558px;
+    }
+    .first-bg {
+        height: 680px;
+    }
+    .sec-bg {
+        grid-template-columns: 1fr;
+        height: 1925px;
+    }
+    .fgrid {
+        content: url(./art-gallery-website/starter-code/assets/mobile/image-grid-1.jpg);
+        height: 320px;
+        width: 343px;
+        left: 16px;
+        top: 65px;
+    }
+    .safe {
+        position: relative;
+        top: -74px;
+        left: -6px;
+    }
+    h1.nobody {
+        width: 343px;
+        font-size: 50px;
+    }
+    p.nobody {
+        font-size: 18px;
+        width: 343px;
+    }
+    .sgrid {
+        content: url(./art-gallery-website/starter-code/assets/mobile/image-grid-2.jpg);
+        top: 15px;
+        left: -151px;
+        height: 480px;
+        width: 343px;
+        top: -225px;
+    }
+    .tgrid {
+        content: url(./art-gallery-website/starter-code/assets/mobile/image-grid-3.jpg);
+        height: 200px;
+        width: 343px;
+        left: 16px;
+        top: -345px;
+    }
+    .blackhole {
+        height: 293px;
+        width: 343px;
+        left: 16px;
+        top: 2142px;
+}
+    h1.hello {
+        font-size: 50px;
+        margin-top: 48px;
+        margin-left: 24px;
+    }
+    p.hello {
+        font-size: 18px;
+        width: 295px;
+        margin-top: 20px;
+    }  
+    h1.nobody .first-br {
+        display: block;
+    }
+    footer {
+        height: 336px;
+        width: 375px;
+    }
+    .text {
+        height: 40px;
+        width: 110px;
+        margin-left: 32px;
+        margin-top: 48px;
+    }
+    .textbutp {
+        font-size: 16px;
+        width: 311px;
+        top: 12px;
+        left: 32px;
+    }
+    .icon {
+        left: 32px;
+        top: 40px;
+    }
+}
