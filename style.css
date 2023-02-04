@@ -221,6 +221,31 @@ h1.nobody   .first-br {
     left: 1175px;
     top: -170px;
 }
+ .face2 {
+    fill: #ffffff;
+    position: relative;
+    left: 1175px;
+    top: -170px;
+ }
+ .insta2 {
+    position: relative;
+    left: 1195px;
+    top: -170px;
+ }
+ .twitter2 {
+    position: relative;
+    left: 1215px;
+    top: -170px;
+ }
+ .face2:hover path{
+    fill: #D5966C;
+ }
+ .insta2:hover path{
+    fill: #D5966C;
+ }
+ .twitter2:hover path{
+    fill: #D5966C;
+ }
 @media screen and ( max-width:768px){
     .black-side {
       width: 0;
